@@ -1,20 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
-
+@import '//fonts.googleapis.com/css?family=Bangers';
 * {
     box-sizing: border-box;
 }
 
 body {
     
-    background-color: #3f0d12;
-    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%); 
+    background-color: black;
     background-size: cover;
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    font-family: "Poppins", sans-serif;
+    font-family: "Bangers";
     margin: 0;
 }
 
@@ -22,6 +20,7 @@ h1 {
     font-weight: normal;
     font-size: 4rem;
     margin-top: 5rem;
+    color: red;
 }
 
 .countdown-container {
@@ -30,11 +29,12 @@ h1 {
     justify-content: center;
 }
 
-.big-text {
+.text {
     font-weight: bold;
     font-size: 6rem;
     line-height: 1;
     margin: 1rem 2rem;
+    color: white;
 }
 
 .countdown-el {
@@ -43,4 +43,5 @@ h1 {
 
 .countdown-el span {
     font-size: 1.3rem;
+    color: white;
 }
