@@ -1,4 +1,4 @@
-@import '//fonts.googleapis.com/css?family=Bangers';
+@import '//fonts.googleapis.com/css2?family=Libre+Franklin&family=Montserrat';
 * {
     box-sizing: border-box;
 }
@@ -20,7 +20,7 @@ h1 {
     font-weight: normal;
     font-size: 4rem;
     margin-top: 5rem;
-    color: red;
+    color: #000000;
 }
 
 .countdown-container {
